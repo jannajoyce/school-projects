@@ -1,0 +1,45 @@
+description: Ultralytics YOLO11n model trained on /content/drive/MyDrive/coe_190/dataset/data.yaml
+author: Ultralytics
+date: '2025-11-04T22:45:52.831933'
+version: 8.3.225
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: barredcoral snake
+  1: boies keelback
+  2: dog-toothed cat snake
+  3: gervais worm snake
+  4: gunthers philippine shrub snake
+  5: king cobra
+  6: luzon bronzeback treesnake
+  7: luzon dwarf snake
+  8: mangrove cat snake
+  9: mullers wolf snake
+  10: north ph temple pitviper
+  11: northern short-headed snake
+  12: paradise tree snake
+  13: philippine blunt-headed catsnake
+  14: philippine bronzeback treesnake
+  15: philippine cat snake
+  16: philippine cobra
+  17: philippine pitviper
+  18: philippine stripe-lipped
+  19: philippine whip snake
+  20: red-tailed green ratsnake
+  21: reddish rat snake
+  22: reinhardts lined snake
+  23: reticulated python
+  24: smooth-scaled mountain rat snake
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3

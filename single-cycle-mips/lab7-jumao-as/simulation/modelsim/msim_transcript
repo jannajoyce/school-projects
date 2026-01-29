@@ -1,0 +1,152 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab7-jumao-as_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/sign_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:02 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/sign_extender.v 
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# End time: 20:04:02 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/serial_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/serial_buffer.v 
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/program_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/program_counter.v 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/inst_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/inst_rom.v 
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/data_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/async_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/async_memory.v 
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:03 on Dec 27,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 20:04:03 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/reg_file_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:04:23 on Dec 27,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/reg_file_tb.v 
+# -- Compiling module reg_file_tb
+# 
+# Top level modules:
+# 	reg_file_tb
+# End time: 20:04:23 on Dec 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.reg_file_tb
+# vsim work.reg_file_tb 
+# Start time: 20:04:29 on Dec 27,2025
+# Loading work.reg_file_tb
+# Loading work.reg_file
+add wave sim:/reg_file_tb/*
+run -all
+# Test 1 - Reg1 = c0dedbee (expected c0dedbee)
+# Test 2 - Reg0 = 00000000 (expected 00000000)
+# Test 3 - Reg1 = c0dedbee, Reg2 = bedfaced (expected c0dedbee, bedfaced)
+# Test 4 - Reg3 = 00000000 (expected 00000000)
+# Test 5 - Reg0 = 00000000, Reg1 = c0dedbee (expected 00000000, c0dedbee)
+# All register file tests completed.
+# ** Note: $finish    : C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/reg_file_tb.v(142)
+#    Time: 47 ns  Iteration: 0  Instance: /reg_file_tb
+# 1
+# Break in Module reg_file_tb at C:/intelFPGA_lite/18.1/quartus/181.1/lab7-jumao-as/reg_file_tb.v line 142
+# End time: 21:00:20 on Dec 27,2025, Elapsed time: 0:55:51
+# Errors: 0, Warnings: 0

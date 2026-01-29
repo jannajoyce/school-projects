@@ -1,0 +1,103 @@
+`timescale 1ns / 1ps
+
+module reg_file_tb;
+
+    // Inputs
+    reg clock;
+    reg reset;
+    reg reg_write_en;
+    reg [4:0] read_reg1;
+    reg [4:0] read_reg2;
+    reg [4:0] write_reg;
+    reg [31:0] write_data;
+
+    // Outputs
+    wire [31:0] read_data1;
+    wire [31:0] read_data2;
+
+    // Instantiate DUT
+    reg_file dut (
+        .clock(clock),
+        .reset(reset),
+        .reg_write_en(reg_write_en),
+        .read_reg1(read_reg1),
+        .read_reg2(read_reg2),
+        .write_reg(write_reg),
+        .write_data(write_data),
+        .read_data1(read_data1),
+        .read_data2(read_data2)
+    );
+
+    // Clock generation: 10 ns period
+    always #5 clock = ~clock;
+
+    initial begin
+        clock        = 0;
+        reset        = 1;
+        reg_write_en = 0;
+        read_reg1    = 0;
+        read_reg2    = 0;
+        write_reg    = 0;
+        write_data   = 0;
+
+        // Apply reset
+        @(posedge clock);
+        reset = 0;
+
+        // Test 1: Write and read register 1
+        write_reg    = 5'd1;
+        write_data   = 32'hfaceb00c;
+        reg_write_en = 1;
+        @(posedge clock);
+        reg_write_en = 0;
+
+        read_reg1 = 5'd1;
+        #1;
+        $display("Test 1 - Reg1 = %h (expected faceb00c)", read_data1);
+		  
+        // Test 2: Register zero ignores writes
+        write_reg    = 5'd0;
+        write_data   = 32'h85764390;
+        reg_write_en = 1;
+        @(posedge clock);
+        reg_write_en = 0;
+
+        read_reg1 = 5'd0;
+        #1;
+        $display("Test 2 - Reg0 = %h (expected 00000000)", read_data1);
+
+        // Test 3: Simultaneous asynchronous reads
+        write_reg    = 5'd2;
+        write_data   = 32'hacedeed4;
+        reg_write_en = 1;
+        @(posedge clock);
+        reg_write_en = 0;
+
+        read_reg1 = 5'd1;
+        read_reg2 = 5'd2;
+        #1;
+        $display("Test 3 - Reg1 = %h, Reg2 = %h (expected faceb00c, acedeed4)",
+                 read_data1, read_data2);
+
+        // Test 4: Write enable disabled
+        write_reg    = 5'd3;
+        write_data   = 32'h09815323;
+        reg_write_en = 0;
+        @(posedge clock);
+
+        read_reg1 = 5'd3;
+        #1;
+        $display("Test 4 - Reg3 = %h (expected 00000000)", read_data1);
+
+        // Test 5: Read reg0 + regN simultaneously
+        read_reg1 = 5'd0;
+        read_reg2 = 5'd1;
+        #1;
+        $display("Test 5 - Reg0 = %h, Reg1 = %h (expected 00000000, faceb00c)",
+                 read_data1, read_data2);
+
+        $display("All register file tests completed.");
+        $finish;
+    end
+
+endmodule

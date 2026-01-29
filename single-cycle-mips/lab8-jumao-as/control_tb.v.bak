@@ -1,0 +1,76 @@
+`timescale 1ns / 1ps
+
+module control_tb;
+    reg [31:0] instruction;
+    wire RegDst;
+    wire ALUSrc;
+    wire MemToReg;
+    wire RegWrite;
+    wire MemRead;
+    wire MemWrite;
+    wire [5:0] ALUOp;
+    reg [80*8:0] instr_name; 
+
+    // Instantiate the control module
+    control uut (
+        .instruction(instruction),
+        .RegDst(RegDst),
+        .ALUSrc(ALUSrc),
+        .MemToReg(MemToReg),
+        .RegWrite(RegWrite),
+        .MemRead(MemRead),
+        .MemWrite(MemWrite),
+        .ALUOp(ALUOp)
+    );
+
+    initial begin
+        $monitor("Time: %0t | Instr: %b | instr_name: %-15s | RegDst; %b | ALUSrc: %b | MemToReg; %b | RegWrite; %b | MemRead; %b | MemWrite: %b | ALUOp: %b",
+                 $time, instruction, instr_name, RegDst, ALUSrc, MemToReg, RegWrite, MemRead, MemWrite, ALUOp);
+    end
+
+    // Test Instructions
+    initial begin
+        // Test R-type (ADD)
+        instruction = 32'b00000000000000000000000000100000; // ADD
+        instr_name = "R-type (ADD)";
+        #10;
+
+		   // Test I-type (ADDI)
+        instruction = 32'b00100000000000000000000000000000; // ADDI
+        instr_name = "I-type (ADDI)";
+        #10;
+		  
+        // Test R-type (SUB)
+        instruction = 32'b00000000000000000000000000100010; // SUB
+        instr_name = "R-type (SUB)";
+        #10;
+
+        // Test R-type (AND)
+        instruction = 32'b00000000000000000000000000100100; // AND
+        instr_name = "R-type (AND)";
+        #10;
+
+        // Test R-type (OR)
+        instruction = 32'b00000000000000000000000000100101; // OR
+        instr_name = "R-type (OR)";
+        #10;
+		  
+		  // Test R-type (NOR)
+        instruction = 32'b00000000000000000000000000100111; // NOR
+        instr_name = "R-type (NOR)";
+        #10;
+
+        // Test I-type (LW)
+        instruction = 32'b10001100000000000000000000000000; // LW
+        instr_name = "I-type (LW)";
+        #10;
+
+        // Test I-type (SW)
+        instruction = 32'b10101100000000000000000000000000; // SW
+        instr_name = "I-type (SW)";
+        #10;
+
+        // Stop simulation
+        $stop;
+    end
+endmodule

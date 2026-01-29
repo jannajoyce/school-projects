@@ -1,0 +1,173 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab9second_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/sign_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:09 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/sign_extender.v 
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/serial_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/serial_buffer.v 
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/program_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/program_counter.v 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/inst_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/inst_rom.v 
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/data_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/data_memory.v 
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/async_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/async_memory.v 
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/load_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/load_extender.v 
+# -- Compiling module load_extender
+# 
+# Top level modules:
+# 	load_extender
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as {C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/zero_extender.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:21:10 on Dec 29,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as" C:/intelFPGA_lite/18.1/quartus/181.1/Lab9-Jumao-as/zero_extender.v 
+# -- Compiling module zero_extender
+# 
+# Top level modules:
+# 	zero_extender
+# End time: 07:21:10 on Dec 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

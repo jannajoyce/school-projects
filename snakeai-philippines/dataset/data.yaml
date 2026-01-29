@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['barredcoral snake', 'boies keelback', 'dog-toothed cat snake', 'gervais worm snake', 'gunthers philippine shrub snake', 'king cobra', 'luzon bronzeback treesnake', 'luzon dwarf snake', 'mangrove cat snake', 'mullers wolf snake', 'north ph temple pitviper', 'northern short-headed snake', 'paradise tree snake', 'philippine blunt-headed catsnake', 'philippine bronzeback treesnake', 'philippine cat snake', 'philippine cobra', 'philippine pitviper', 'philippine stripe-lipped', 'philippine whip snake', 'red-tailed green ratsnake', 'reddish rat snake', 'reinhardts lined snake', 'reticulated python', 'smooth-scaled mountain rat snake']
+
+roboflow:
+  workspace: project-rowru
+  project: snakes_philippines-vprgl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-rowru/snakes_philippines-vprgl/dataset/1

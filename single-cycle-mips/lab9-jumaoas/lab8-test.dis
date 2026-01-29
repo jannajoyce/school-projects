@@ -1,0 +1,80 @@
+
+lab4-test:     file format elf32-tradlittlemips
+
+
+Disassembly of section IROM:
+
+00400000 <__start>:
+  400000:	0c10000b 	jal	40002c <main>
+  400004:	00000000 	nop
+
+00400008 <printhello>:
+  400008:	20a60018 	addi	a2,a1,24
+
+0040000c <loop>:
+  40000c:	8caa0000 	lw	t2,0(a1)
+  400010:	00000000 	nop
+  400014:	ac8a000c 	sw	t2,12(a0)
+  400018:	20a50004 	addi	a1,a1,4
+  40001c:	14a6fffb 	bne	a1,a2,40000c <loop>
+  400020:	00000000 	nop
+  400024:	03e00008 	jr	ra
+  400028:	00000000 	nop
+
+0040002c <main>:
+  40002c:	200a4000 	addi	t2,zero,16384
+  400030:	000aa022 	neg	s4,t2
+  400034:	028aa022 	sub	s4,s4,t2
+  400038:	028aa022 	sub	s4,s4,t2
+  40003c:	028aa022 	sub	s4,s4,t2
+  400040:	200b4000 	addi	t3,zero,16384
+  400044:	016b5820 	add	t3,t3,t3
+  400048:	016b5820 	add	t3,t3,t3
+  40004c:	016b5820 	add	t3,t3,t3
+  400050:	016b5820 	add	t3,t3,t3
+  400054:	016b5820 	add	t3,t3,t3
+  400058:	016b5820 	add	t3,t3,t3
+  40005c:	016b5820 	add	t3,t3,t3
+  400060:	016b5820 	add	t3,t3,t3
+  400064:	016b5820 	add	t3,t3,t3
+  400068:	016b5820 	add	t3,t3,t3
+  40006c:	016b5820 	add	t3,t3,t3
+  400070:	016b5820 	add	t3,t3,t3
+  400074:	016b5820 	add	t3,t3,t3
+  400078:	016b5820 	add	t3,t3,t3
+  40007c:	200a0048 	addi	t2,zero,72
+  400080:	ad6a0000 	sw	t2,0(t3)
+  400084:	00000020 	add	zero,zero,zero
+  400088:	200a0065 	addi	t2,zero,101
+  40008c:	ad6a0004 	sw	t2,4(t3)
+  400090:	00000020 	add	zero,zero,zero
+  400094:	200a006c 	addi	t2,zero,108
+  400098:	ad6a0008 	sw	t2,8(t3)
+  40009c:	00000020 	add	zero,zero,zero
+  4000a0:	ad6a000c 	sw	t2,12(t3)
+  4000a4:	00000020 	add	zero,zero,zero
+  4000a8:	200a006f 	addi	t2,zero,111
+  4000ac:	ad6a0010 	sw	t2,16(t3)
+  4000b0:	00000020 	add	zero,zero,zero
+  4000b4:	200a0020 	addi	t2,zero,32
+  4000b8:	ad6a0014 	sw	t2,20(t3)
+  4000bc:	00000020 	add	zero,zero,zero
+  4000c0:	02802020 	add	a0,s4,zero
+  4000c4:	01602820 	add	a1,t3,zero
+  4000c8:	0c100002 	jal	400008 <printhello>
+  4000cc:	200a0057 	addi	t2,zero,87
+  4000d0:	ae8a000c 	sw	t2,12(s4)
+  4000d4:	00000020 	add	zero,zero,zero
+  4000d8:	200a006f 	addi	t2,zero,111
+  4000dc:	ae8a000c 	sw	t2,12(s4)
+  4000e0:	00000020 	add	zero,zero,zero
+  4000e4:	200a0072 	addi	t2,zero,114
+  4000e8:	ae8a000c 	sw	t2,12(s4)
+  4000ec:	00000020 	add	zero,zero,zero
+  4000f0:	200a006c 	addi	t2,zero,108
+  4000f4:	ae8a000c 	sw	t2,12(s4)
+  4000f8:	00000020 	add	zero,zero,zero
+  4000fc:	200a0064 	addi	t2,zero,100
+  400100:	ae8a000c 	sw	t2,12(s4)
+  400104:	00000020 	add	zero,zero,zero
+	...
